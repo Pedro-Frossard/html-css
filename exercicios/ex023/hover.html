@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houver</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p#texto_escondido{
+            display: none;
+        }
+
+        div:hover > p#texto_escondido{
+            display: block;
+            background-color: red;
+            color: white;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Passe o mouse no paragrafo de baixo</p>
+    <div>
+        <p>Passe o mouse aqui</p>
+        <p id="texto_escondido">Texto escondido</p>
+    </div>
+</body>
+</html>
